@@ -1,0 +1,31 @@
+.box{
+    height: 150px;
+    width: 150px;
+    transition: 3s;
+}
+
+#box1 {
+    background-color: red;
+}
+
+#box1:hover {
+    width: 300px;
+}
+
+#box2 {
+    background-color: blue;
+}
+
+#box2:hover{
+    height: 300px; 
+}
+
+#box3 {
+    background-color: green;
+}
+
+#box3:hover {
+    height: 300px;
+    width: 300px;
+    transform: rotate(45deg);   
+}
