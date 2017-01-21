@@ -1,0 +1,12 @@
+#tlo-obrazek{
+    background-color: beige;
+    background-image: url("../img/truskawka.jpg");
+    background-repeat: repeat-x;
+    background-position: top center;
+    background-size: 30% 30%;
+    background-attachment: fixed;
+    
+    color:lime;
+    
+    
+}
