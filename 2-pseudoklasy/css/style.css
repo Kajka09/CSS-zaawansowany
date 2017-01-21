@@ -1,0 +1,47 @@
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: orange;
+}
+
+a:visited {
+    color:skyblue;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:active {
+    color:fuchsia;
+    
+}
+
+/*focus nadpisuje pseudoklase active !!*/
+
+a:focus {
+    color:firebrick;
+}
+
+#p1:target {
+    color:green; 
+}
+
+p:lang(pl) {
+    font-style:italic;
+    color:darkcyan;
+}
+
+.klient:nth-child(even){
+    background-color:beige;
+}
+
+.klient:nth-child(odd) {
+    background-color: lightpink;
+}
+
+.klient:nth-child(5n +4) {
+    background-color: olivedrab;
+}
